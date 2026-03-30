@@ -3,9 +3,9 @@
   "name": "Auto Updater",
   "version": "1.0.0",
   "config_flow": true,
-  "codeowners": ["@adiami"],
+  "codeowners": ["@adiami14"],
   "requirements": [],
   "iot_class": "local_polling",
-  "documentation": "https://github.com/adiami/homeassistant-auto-updater",
-  "issue_tracker": "https://github.com/adiami/homeassistant-auto-updater/issues"
+  "documentation": "https://github.com/adiami14/homeassistant-auto-updater",
+  "issue_tracker": "https://github.com/adiami14/homeassistant-auto-updater/issues"
 }

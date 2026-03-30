@@ -30,7 +30,7 @@ Automatically schedule and install Home Assistant updates — Core, OS, Supervis
 1. Open HACS in your Home Assistant instance
 2. Go to **Integrations**
 3. Click the **⋮** menu → **Custom repositories**
-4. Add `https://github.com/adiami/homeassistant-auto-updater` as category **Integration**
+4. Add `https://github.com/adiami14/homeassistant-auto-updater` as category **Integration**
 5. Find **Auto Updater** and click **Download**
 6. Restart Home Assistant
 7. Go to **Settings → Devices & Services → Add Integration** and search for **Auto Updater**
@@ -117,12 +117,12 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
-[releases-shield]: https://img.shields.io/github/release/adiami/homeassistant-auto-updater.svg?style=for-the-badge
-[releases]: https://github.com/adiami/homeassistant-auto-updater/releases
-[commits-shield]: https://img.shields.io/github/commit-activity/y/adiami/homeassistant-auto-updater.svg?style=for-the-badge
-[commits]: https://github.com/adiami/homeassistant-auto-updater/commits/main
-[license-shield]: https://img.shields.io/github/license/adiami/homeassistant-auto-updater.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/adiami14/homeassistant-auto-updater.svg?style=for-the-badge
+[releases]: https://github.com/adiami14/homeassistant-auto-updater/releases
+[commits-shield]: https://img.shields.io/github/commit-activity/y/adiami14/homeassistant-auto-updater.svg?style=for-the-badge
+[commits]: https://github.com/adiami14/homeassistant-auto-updater/commits/main
+[license-shield]: https://img.shields.io/github/license/adiami14/homeassistant-auto-updater.svg?style=for-the-badge
 [hacs-shield]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
 [hacs]: https://hacs.xyz
-[maintenance-shield]: https://img.shields.io/badge/maintainer-%40adiami-blue.svg?style=for-the-badge
-[maintenance]: https://github.com/adiami
+[maintenance-shield]: https://img.shields.io/badge/maintainer-%40adiami14-blue.svg?style=for-the-badge
+[maintenance]: https://github.com/adiami14
