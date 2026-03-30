@@ -1,0 +1,5 @@
+update_now:
+  name: Update Now
+  description: >
+    Immediately check for and install all available updates according to the
+    configured update types. Identical to the daily scheduled run.

@@ -1,0 +1,54 @@
+{
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Only one instance of Auto Updater is allowed."
+    },
+    "step": {
+      "user": {
+        "title": "Auto Updater Setup",
+        "description": "Configure automatic Home Assistant updates.",
+        "data": {
+          "update_time": "Update time",
+          "update_days": "Run on days",
+          "update_types": "Update types to install",
+          "backup_before_update": "Create backup before updating",
+          "auto_restart": "Restart HA after updates",
+          "notify_mobile": "Send mobile / companion app notification",
+          "mobile_notify_service": "Notification service"
+        },
+        "data_description": {
+          "update_time": "Time at which updates will be installed.",
+          "update_days": "Select which days to run automatic updates. Deselect days to skip them (e.g. select only Sunday for weekly updates).",
+          "update_types": "Select which types of updates to include.",
+          "backup_before_update": "Create a full backup before applying any updates.",
+          "auto_restart": "Automatically restart Home Assistant after non-Core updates complete. Core updates always restart HA on their own.",
+          "mobile_notify_service": "Notify service to use, e.g. 'notify' or 'notify.mobile_app_my_phone'."
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Auto Updater Options",
+        "data": {
+          "update_time": "Update time",
+          "update_days": "Run on days",
+          "update_types": "Update types to install",
+          "backup_before_update": "Create backup before updating",
+          "auto_restart": "Restart HA after updates",
+          "notify_mobile": "Send mobile / companion app notification",
+          "mobile_notify_service": "Notification service"
+        },
+        "data_description": {
+          "update_time": "Time at which updates will be installed.",
+          "update_days": "Select which days to run automatic updates. Deselect days to skip them (e.g. select only Sunday for weekly updates).",
+          "update_types": "Select which types of updates to include.",
+          "backup_before_update": "Create a full backup before applying any updates.",
+          "auto_restart": "Automatically restart Home Assistant after non-Core updates complete. Core updates always restart HA on their own.",
+          "mobile_notify_service": "Notify service to use, e.g. 'notify' or 'notify.mobile_app_my_phone'."
+        }
+      }
+    }
+  }
+}
