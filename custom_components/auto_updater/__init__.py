@@ -247,6 +247,12 @@ class AutoUpdaterCoordinator:
         latest: str = state.attributes.get("latest_version", "?")
         desc = f"{name}: {installed} → {latest}"
 
+        # UpdateEntityFeature.INSTALL = 1 — skip read-only informational entities
+        supported = state.attributes.get("supported_features", 0)
+        if not (supported & 1):
+            _LOGGER.info("Auto Updater: skipped %s — does not support install", name)
+            return "skipped", f"{name} (manual install required)"
+
         try:
             await asyncio.wait_for(
                 self.hass.services.async_call(
